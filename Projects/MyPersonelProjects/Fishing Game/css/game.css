@@ -1,0 +1,141 @@
+/* CSS Document */
+
+/* Body styling */
+body {
+  background-image: url(../img/fish3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Young Serif', serif;
+  text-shadow: 1px 1px black;
+}
+
+/* Fishing rod image styling */
+#fishing-rod {
+  width: 200px;
+  float: left;
+  z-index: 1;
+}
+
+/* Heading (h1) styling */
+h1 {
+  font-family: 'Young Serif', serif;
+  font-size: 36px;
+  color: #00f; /* Blue text color */
+  margin: 48px 0;
+  text-align: center;
+  text-shadow: 1px 1px black;
+}
+
+/* Paragraph (p) styling */
+p {
+  margin-left: 200px;
+}
+
+/* Button styling */
+button {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #00f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Main content container styling */
+div#content {
+  width: 60%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 22px;
+  background-color: #fff; /* White background */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: left;
+  color: #00f; /* Blue text color */
+}
+
+/* Controls section styling */
+div#controls {
+  margin-top: 20px;
+}
+
+div#controls button {
+  margin-left: 20px;
+}
+
+/* Game space styling */
+div#gamespace {
+  margin: 20px;
+  padding: 10px;
+  height: 350px;
+  background-color: #FFF;
+  border: 2px solid #CCC;
+  background-image: url(../img/fish5.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+div#gamespace img {
+  position: absolute;
+}
+
+/* Cursor styling for the game space */
+div#gamespace {
+  cursor: url('../img/Fishing Rod.png'), auto;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+}
+
+/* Styling for game images */
+.game-image {
+  max-width: 120px;
+  height: auto;
+}
+
+/* Hidden class to hide elements */
+.hidden {
+  display: none;
+}
+
+/* Timer section styling */
+div.timer {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#score {
+  width: 48%;
+  text-align: left;
+}
+
+#timea {
+  width: 48%;
+  text-align: right;
+}
+
+/* Styling for the timer text */
+#timea {
+  color: #ff0000;
+  font-size: 20px;
+}
+
+/* Footer styling */
+footer {
+  color: #fff; /* White font color */
+}

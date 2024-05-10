@@ -1,0 +1,359 @@
+.background_image {
+	background-image : url(./images/pexels-elianne-dipp-4666753.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+	
+}
+.background_image1 {
+	background-image : url(./images/pexels-pixabay-53425.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+}
+.background_image2 {
+	background-image : url(./images/pexels-wang-teck-heng-117139.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+}
+.background_image3 {
+	background-image : url(./images/thylacine-3.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+}
+.background_image4 {
+	background-image : url(./images/pexels-lars-h-knudsen-10886167.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+}
+.background_image5 {
+	background-image : url(./images/dodosmightha.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+}
+.background_image6 {
+	background-image : url(./images/pexels-pixabay-267074.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+}
+.background_image7 {
+	background-image : url(./images/pexels-ludwig-kwan-2411914.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+}
+.background_image8 {
+	background-image : url(./images/pexels-pixabay-35992.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+}
+.background_image9 {
+	background-image : url(./images/pexels-julia-filirovska-7190227.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+}
+.background_image10 {
+	background-image : url(./images/pexels-nicole-kruger-4005190.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+}
+.background_image11 {
+	background-image : url(./images/pexels-mehmet-turgut-kirkgoz-12931077.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+}
+.background_image12 {
+	background-image : url(./images/pexels-jeremy-bishop-2422915.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+}
+.background_image13 {
+	background-image : url(./images/pexels-pixabay-302271.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+}
+.background_image14 {
+	background-image : url(./images/pexels-matt-waters-12645952.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+}
+.background_image15 {
+	background-image : url(./images/pexels-tom-fisk-668867.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+}
+h1 {
+	color: bleu;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 32px;
+	font-weight: bold;
+  }
+p {
+color : white;
+font-size: 20px;
+width: 400px;
+  display: inline-block;
+  text-indent: 12;
+  margin: 50;
+  padding: 10px;
+  background-color: black
+}
+
+body {
+	
+	width: 100%;
+	max-width: 1200px;
+	background-color: rgb(250, 250, 250);
+	margin: 0 auto;
+	padding: 0;
+	height: 100%;
+	font-family: Arial, sans-serif
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(77, 77, 240);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+.contact-form h1 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  display: block;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border: none;
+  border-radius: 0.25em;
+  box-shadow: inset 0 0 0.125em rgba(0, 0, 0, 0.2);
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0.25em;
+  padding: 0.75em;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #0066cc;
+}
+@media only screen and (max-width: 767px) {
+  header {
+    height: 60px;
+  }
+  
+  nav {
+    height: 30px;
+  }
+  
+  main {
+    padding: 10px;
+  }
+  
+  p {
+  font-size: 14px;
+  }
+  .background_image {
+	  height: 100px
+  }
+  .background_image1 {
+	  height: 100px
+  }
+  .background_image2 {
+	  height: 100px
+  }
+  .background_image3 {
+	  height: 100px
+  }
+  .background_image4 {
+	  height: 100px
+  }
+  .background_image5 {
+	  height: 100px
+  }
+  .background_image6 {
+	  height: 100px
+  }
+  .background_image7 {
+	  height: 100px
+  }
+  .background_image8 {
+	  height: 100px
+  }
+  .background_image9 {
+	  height: 100px
+  }
+  .background_image10 {
+	  height: 100px
+  }
+  .background_image11 {
+	  height: 100px
+  }
+  .background_image12 {
+	  height: 100px
+  }
+  .background_image13 {
+	  height: 100px
+  }
+  .background_image14 {
+	  height: 100px
+  }
+  .background_image15 {
+	  height: 100px
+  }
+}
+/* styles for screens smaller than 480px */
+@media only screen and (max-width: 479px) {
+  header {
+    height: 40px;
+  }
+  
+  nav {
+    display: none;
+  }
+  
+  main {
+    padding: 5px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .background_image {
+	  height: 200px
+  }
+  .background_image1 {
+	  height: 200px
+  }
+  .background_image2 {
+	  height: 200px
+  }
+  .background_image3 {
+	  height: 200px
+  }
+  .background_image4 {
+	  height: 200px
+  }
+  .background_image5 {
+	  height: 200px
+  }
+  .background_image6 {
+	  height: 200px
+  }
+  .background_image7 {
+	  height: 200px
+  }
+  .background_image8 {
+	  height: 200px
+  }
+  .background_image9 {
+	  height: 200px
+  }
+  .background_image10 {
+	  height: 200px
+  }
+  .background_image11 {
+	  height: 200px
+  }
+  .background_image12 {
+	  height: 200px
+  }
+  .background_image13 {
+	  height: 200px
+  }
+  .background_image14 {
+	  height: 200px
+  }
+  .background_image15 {
+	  height: 200px
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #555;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+a {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

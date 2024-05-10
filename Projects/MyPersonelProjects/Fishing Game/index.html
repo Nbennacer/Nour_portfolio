@@ -1,0 +1,71 @@
+<!-- 
+		Name: Nour Mohamed Bennacer
+		Date: 12/05/2023
+		Class: CSCI2447, Javascript Fundamentals
+		Project 6
+ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Page title -->
+    <title>Fishery</title>
+
+    <!-- Link to the external CSS file -->
+    <link href="css/game.css" rel="stylesheet" />
+
+    <!-- Link to Google Fonts for the 'Young Serif' font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+
+    <!-- Character set for the document -->
+    <meta charset="utf-8">
+
+    <!-- Favicon for the website -->
+    <link rel="icon" type="image/png" href="img/Favicon.png">
+  </head>
+  <body>
+    <!-- Footer section -->
+    <footer></footer>
+
+    <!-- Main content container -->
+    <div id="content">
+      <!-- Fishing rod image -->
+      <img src="img/rod.png" alt="Fishing Rod" id="fishing-rod">
+
+      <!-- Main heading -->
+      <h1>Catch the Fish</h1>
+
+      <!-- Game directions -->
+      <p id="directions">
+        Click 'Start' and get ready to catch as many fish as you can within a limited time.
+        Use your mouse cursor as a fishing hook and aim to catch the fish as they swim by.
+        Each successful catch earns you points. How many fish can you catch before the timer runs out?
+        Dive into the action and find out in Fish Clicker!
+      </p>
+
+      <!-- Game controls section -->
+      <div id="controls">
+        <!-- Timer display with initial score and hidden timer -->
+        <div class="timer">
+          <span id="score">0 pts</span>
+          <span id="timea" class="hidden">30 seconds left</span>
+          <button type="button" id="start_button">Start!</button>
+        </div>
+      </div>
+
+      <!-- Game space where fish images will appear -->
+      <div id="gamespace"></div>
+    </div>
+
+    <!-- jQuery library -->
+    <script src="jquery.js"></script>
+
+    <!-- Game JavaScript file -->
+    <script src="js/game.js"></script>
+  </body>
+</html>
+
+
+<!-- 12/05/2023 -->
